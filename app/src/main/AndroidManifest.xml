@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logoatwo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoatwo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoffeeShopAtwo"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.activity.AddMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.RegistrasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CoffeeShopAtwo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/layout_menu"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivpoto_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/photo" />
+
+    <TextView
+        android:id="@+id/tvnama_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:text="Nama"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvharga_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:text="Harga"
+        android:textSize="18sp" />
+
+</LinearLayout>
